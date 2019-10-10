@@ -1,0 +1,63 @@
+#demo{
+    font-size: 60px;
+    color: yellow;
+}
+.box-one{
+    height: 300px ;20px;
+    width: 400px;
+    background-color: red;
+    float: left;
+    margin: 10px 20px 30px 40px;
+    box-sizing:border-box;
+    padding-top: 120px;
+    padding-left: 140px;
+
+}
+.box-two{
+    height: 300px;
+    width: 400px;
+    background-color: green;
+    float: left;
+}
+.box-three{
+    background-color: orange;
+    height: 300px;
+    width: 1000px;
+    float: left;
+}
+
+.col-1{ width: 8.33%;}
+.col-2{width: 16.66%;}
+.col-3{width:25%;}
+.col-4{width: 33.33%;}
+.col-5{width: 41.66%;}
+.col-6{width: 50%;}
+.col-7{width:58.33%;}
+.col-8{width:66.33%;}
+.col-9{width: 75%;}
+.col-10{width: 83.33%;}
+.col-11{width: 91.33%;}
+.col-12{width: 100%;}
+[class*='col-'] {
+    border: 1px solid;
+    float: left;
+    box-sisizing: border-box;
+}
+.header-top-height{height: 30px;}
+.header-height{height: 200px;}
+.menu-height{height: 50px;}
+.content-height{height: 600px;}
+.footer-height{height: 300px;}
+.big-footer-height{height: 30px;}
+
+
+.row:after{
+    content: '';
+    clear: both;
+    display: block;
+}
+.wrapper{
+    width: 80%;;
+height: auto;
+margin: 0 auto;
+}
